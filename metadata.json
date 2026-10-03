@@ -1,0 +1,6 @@
+{
+  "name": "SMART IoT - Industrial Anomaly Detection",
+  "description": "Real-time industrial machine sensor monitoring and machine-learning-based anomaly detection platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
