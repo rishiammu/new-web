@@ -420,6 +420,41 @@ if __name__ == "__main__":
             </div>
           </div>
 
+          <div className="p-6 rounded-2xl bg-[#0F172A] border border-slate-800 space-y-4">
+            <h3 className="text-lg font-bold text-white flex items-center gap-2">
+              <Database className="w-5 h-5 text-cyan-400" />
+              <span>Dataset & Empirical Calibration Standards</span>
+            </h3>
+            <p className="text-sm text-slate-300 leading-relaxed">
+              The anomaly detection baselines and telemetry patterns in this project are derived from and calibrated against three established industrial data and engineering standards:
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-1">
+              <div className="p-4 rounded-xl bg-slate-950/70 border border-slate-800 space-y-2">
+                <div className="text-xs font-bold text-cyan-400 font-mono">1. NASA / IMS Bearing Dataset</div>
+                <div className="text-xs font-semibold text-white">NASA Ames & University of Cincinnati IMS</div>
+                <p className="text-xs text-slate-400 leading-relaxed">
+                  Calibrated against the classic NASA Prognostics Center of Excellence (PCoE) / IMS run-to-failure bearing dataset for accelerometer vibration progression, harmonic wear, and race defects.
+                </p>
+              </div>
+
+              <div className="p-4 rounded-xl bg-slate-950/70 border border-slate-800 space-y-2">
+                <div className="text-xs font-bold text-cyan-400 font-mono">2. ISO 10816 / ISO 20816 Standards</div>
+                <div className="text-xs font-semibold text-white">Mechanical Vibration Evaluation Zones</div>
+                <p className="text-xs text-slate-400 leading-relaxed">
+                  Threshold limits are mapped directly to ISO 10816-3 (Zone A: Good &lt;2.8 mm/s, Zone B: Acceptable &lt;4.5 mm/s, Zone C: Warning 4.5–7.1 mm/s, Zone D: Critical &gt;7.1 mm/s).
+                </p>
+              </div>
+
+              <div className="p-4 rounded-xl bg-slate-950/70 border border-slate-800 space-y-2">
+                <div className="text-xs font-bold text-cyan-400 font-mono">3. Real-Time Telemetry Generator</div>
+                <div className="text-xs font-semibold text-white">Stochastic Multi-Variate Process</div>
+                <p className="text-xs text-slate-400 leading-relaxed">
+                  Continuous live streaming engine implementing Brownian motion with mean reversion across 5 continuous dimensions: Temperature (°C), Vibration (mm/s), Pressure (bar), RPM, and Current (A).
+                </p>
+              </div>
+            </div>
+          </div>
+
           <div className="p-6 rounded-2xl bg-[#0F172A] border border-slate-800 space-y-3">
             <h3 className="text-lg font-bold text-white flex items-center gap-2">
               <ShieldCheck className="w-5 h-5 text-emerald-400" />
